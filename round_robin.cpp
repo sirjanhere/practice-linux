@@ -61,7 +61,7 @@ int main() {
         int oldTime = time;
         time += exec;
 
-        // RULE MATCHING YOUR SCREENSHOT:
+        // RULE 
         // Insert all newly arrived processes BEFORE reinserting current process
         while (idx < N && p[idx].arrival <= time) {
             q.push(idx);
